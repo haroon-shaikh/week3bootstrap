@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: blue;
+  font-family: 'Oxygen', sans-serif;
+}
 
-You can use the [editor on GitHub](https://github.com/haroon-shaikh/week3bootstrap/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+/** HEADER **/
+#header-nav {
+  background-color: red;
+  border-radius: 0;
+  border: 0;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.navbar-brand {
+  padding-top: 25px;
+}
 
-```markdown
-Syntax highlighted code block
+p{
+  margin left: : 1em;
+  margin-right: 1em
+  margin-bottom:2em;
+  margin-top: 2em;
+  background-color: gray;
+}
+p{
+  text-align: center;
+  font-size: 150%;
+ 
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: red;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
 
-# Header 1
-## Header 2
-### Header 3
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
 
-- Bulleted
-- List
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
 
-1. Numbered
-2. List
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
 
-**Bold** and _Italic_ and `Code` text
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
 
-[Link](url) and ![Image](src)
-```
+/* END HOME PAGE */
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/haroon-shaikh/week3bootstrap/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/********** Large devices only **********/
